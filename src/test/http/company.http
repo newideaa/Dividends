@@ -1,0 +1,26 @@
+GET http://localhost:8080/company/autocomplete?keyword=A
+Accept: application/json
+
+###
+GET http://localhost:8080/company
+Accept: application/json
+
+###
+POST http://localhost:8080/company
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJncmFjZSIsInJvbGVzIjpbIlJPTEVfUkVBRCIsIlJPTEVfV1JJVEUiXSwiaWF0IjoxNzA1MzE1MTEwLCJleHAiOjE3MDUzMTg3MTB9.k3f6GtMJ_2S90rxP3IBtKRd9hG4kijx6YpNXLm8PuBU2HEtSYpd8Vx0fhwjCPqRVXBceUW6TduuU-GZcSIxZ3Q
+
+{
+  "ticker": "O"
+}
+
+<> 2024-01-15T051240.200.json
+###
+POST http://localhost:8080/company
+Content-Type: application/json
+
+{
+  "ticker": "AAPL"
+}
+
+<> 2024-01-15T051325.200.json

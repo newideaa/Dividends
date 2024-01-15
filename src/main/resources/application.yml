@@ -1,0 +1,37 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:test
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+
+  session:
+    store-type: redis
+  redis:
+    host: localhost
+    port: 6379
+    password: 2684
+  profiles:
+    active: local
+
+  jwt:
+    secret: ZGF5b25lLXNwcmluZy1ib290LXByb2plY3QtdHV0b3JpYWwtand0LXNlY3JldC1rZXkK
+
+  h2:
+    console:
+      enabled: true
+  jpa:
+    defer-datasource-initialization: true
+    database-platform: H2
+    hibernate:
+      ddl-auto: create
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+    show-sql: true
+
+scheduler:
+  scrap:
+    yahoo: 0 0 0 * * *

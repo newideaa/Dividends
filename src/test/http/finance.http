@@ -1,0 +1,5 @@
+GET http://localhost:8080/finance/dividend/Realty Income Corporation (O)
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJncmFjZSIsInJvbGVzIjpbIlJPTEVfUkVBRCIsIlJPTEVfV1JJVEUiXSwiaWF0IjoxNzA1MzE1MTEwLCJleHAiOjE3MDUzMTg3MTB9.k3f6GtMJ_2S90rxP3IBtKRd9hG4kijx6YpNXLm8PuBU2HEtSYpd8Vx0fhwjCPqRVXBceUW6TduuU-GZcSIxZ3Q
+
+###
